@@ -6,6 +6,6 @@ title: "Welcome to our second slide!"
 
 ---
 
-Your text
+Time is Gold.
 
 Use the left arrow to go back!
