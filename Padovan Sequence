@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+//1,1,1,2,2,3,4,5,7,9,12,16,21,28,37...
+//^(root)
+//f(n)=f(n-2)+f(n-3)
+//a1=a2=a3=1
+int F(int a){
+    if(a==0||a==1||a==2){
+        return 1;
+    }else{
+        return F(a-2)+F(a-3);
+    }
+}
+int main()
+{
+    for(int n=0; n<=10; n++){
+        cout<<F(n)<<" ";
+    }
+    return 0;
+}
